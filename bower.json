@@ -4,7 +4,6 @@
   "dependencies": {
     "angular": "~1.5.0",
     "ngmap": "^1.16.7",
-    "bower": "1.8.0",
     "angular-material": "^1.0.6",
     "ng-file-upload": "^12.0.4",
     "angular-material-data-table": "^0.9.14",

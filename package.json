@@ -14,7 +14,7 @@
     "cookie-parser": "^1.4.1",
     "cookie-session": "^2.0.0-alpha.1",
     "ejs": "^2.4.1",
-    "express": "~4.2.x",
+    "express": "^4.2.0",
     "express-ejs-layouts": "^2.0.0",
     "jimp": "^0.2.21",
     "kerberos": "~0.0.x",
@@ -25,7 +25,6 @@
   },
   "scripts": {
     "start": "node index.js"
-    
   },
   "engines": {
     "node": ">=4.3"

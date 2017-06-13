@@ -24,8 +24,8 @@
     "parse-server-simple-mailgun-adapter": "^1.0.0"
   },
   "scripts": {
-    "start": "node index.js",
-    "postinstall": "./node_modules/bower/bin/bower install"
+    "start": "node index.js"
+    
   },
   "engines": {
     "node": ">=4.3"

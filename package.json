@@ -13,6 +13,7 @@
     "bower": "1.8.0",
     "cookie-parser": "^1.4.3",
     "cookie-session": "^2.0.0-beta.2",
+    "cycle": "^1.0.3",
     "ejs": "^2.4.1",
     "express": "^4.2.0",
     "express-ejs-layouts": "^2.3.0",

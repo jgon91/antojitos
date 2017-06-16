@@ -64,7 +64,7 @@ app.set('views', 'views');
 var mountPath = process.env.PARSE_MOUNT || '/parse';
 app.use(mountPath, api);
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(expressLayouts);
 app.use(cookieParser());

@@ -64,8 +64,11 @@ app.set('views', 'views');
 var mountPath = process.env.PARSE_MOUNT || '/parse';
 app.use(mountPath, api);
 
+var path = require('path');
+var publicPath = path.resolve(__dirname, 'www');
+
 // app.use(express.static('public'));
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(expressLayouts);
 app.use(cookieParser());
 app.use(methodOverride());
